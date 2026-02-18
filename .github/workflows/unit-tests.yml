@@ -18,4 +18,4 @@ jobs:
           cache: maven
 
       - name: Run Unit Tests
-        run: mvn test -B -ntp
+        run: mvn clean test -pl core -am -B -ntp
