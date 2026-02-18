@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven
+Built-By: rakshett2
+Build-Jdk: 11.0.29
+Implementation-Title: AEM GEEKS - UI content
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.aem.geeks
+Content-Package-Roots: /conf/aemgeeks,/content/aemgeeks,/content/dam/aem
+ geeks,/content/experience-fragments/aemgeeks
+Content-Package-Description: UI content package for AEM GEEKS
+Content-Package-Dependencies: com.aem.geeks:aemgeeks.ui.apps:1.0-SNAPSHO
+ T
+Content-Package-Id: com.aem.geeks:aemgeeks.ui.content:1.0-SNAPSHOT
+Content-Package-Type: content
+
